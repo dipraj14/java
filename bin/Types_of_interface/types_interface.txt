@@ -1,0 +1,4 @@
+There was 3 types of interface in java 
+1) Normal Interface
+2) Funcational interface -> lamda expression (single abstruct method)
+3) Marker Interface -> no method inside the interface example Serializable 
