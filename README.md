@@ -1,5 +1,4 @@
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+PORT=3000
+DATABASE_URL=mongodb://localhost:27017/your-database
 ```
