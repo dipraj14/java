@@ -8,7 +8,7 @@
 - Creates a new blog post.
 
 - **Usage Example:** 
-```ruby
+```javascript
 CALL CreatePosts('My First Post', 'This is my first post', 'Abhishek Kumar', @pid);
 ```
 **2. GetAllPosts**
