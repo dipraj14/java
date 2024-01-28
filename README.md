@@ -62,6 +62,64 @@ The project directory is organized into several key folders, each serving a spec
 └───services
 ```
 
+```mermaid
+graph TD;
+    root[Project Root]
+    github[.github]
+    workflows[workflows]
+    apidoc[apidoc]
+    css[css]
+    fonts[fonts]
+    img[img]
+    locales[locales]
+    utils[utils]
+    vendor[vendor]
+    path-to-regexp[path-to-regexp]
+    sql[sql]
+    src[src]
+    controllers[controllers]
+    exception[exception]
+    errors[errors]
+    helpers[helpers]
+    interfaces[interfaces]
+    middlewares[middlewares]
+    models[models]
+    mongo[mongo]
+    mysql[mysql]
+    providers[providers]
+    routes[routes]
+    public[public]
+    secure[secure]
+    services[services]
+
+    root --> github
+    github --> workflows
+    root --> apidoc
+    apidoc --> css
+    apidoc --> fonts
+    apidoc --> img
+    apidoc --> locales
+    apidoc --> utils
+    apidoc --> vendor
+    vendor --> path-to-regexp
+    root --> sql
+    root --> src
+    src --> controllers
+    src --> exception
+    exception --> errors
+    src --> helpers
+    src --> interfaces
+    src --> middlewares
+    src --> models
+    models --> mongo
+    models --> mysql
+    src --> providers
+    src --> routes
+    routes --> public
+    routes --> secure
+    src --> services
+  ```
+
 ```
 ├───.github
 │ └───workflows # GitHub Actions workflows for CI/CD
